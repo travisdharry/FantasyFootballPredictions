@@ -1,3 +1,12 @@
+# My ignore
+.DS_Store
+config.py
+.env
+sources/
+ignore/
+data_raw/
+model_data/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
