@@ -6,6 +6,7 @@ sources/
 ignore/
 data_raw/
 model_data/
+20220818_randomforest_model.joblib
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
