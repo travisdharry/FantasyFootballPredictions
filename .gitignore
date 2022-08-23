@@ -6,7 +6,7 @@ sources/
 ignore/
 data_raw/
 data_prepro/
-data_cleaned
+data_cleaned/
 data_predictions/
 .joblib
  
