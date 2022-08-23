@@ -14,8 +14,7 @@
 scrape_ffDB_histStats.ipynb > weekly_xx.csv
 scrape_ffRef_histAges.ipynb > ages_historical.csv
 ### Clean
-weekly_xx.csv > clean_ffDB_histStats.ipynb > modelSource.csv
-ages_historical.csv > clean_ffRef_histAges.ipynb > modelAges.csv
+weekly_xx.csv + ages_historical.csv > clean_histStats.ipynb > modelSource.csv
 ## Build Model
 modelSource.csv > modelBuild3.ipynb > rfmodel_XX1.joblib
 
@@ -23,7 +22,7 @@ modelSource.csv > modelBuild3.ipynb > rfmodel_XX1.joblib
 ## Make Predictions
 ### Scrape and Clean Current Data
 - MyFantasyLeague & OurLads
-clean_currentPlayers.ipynb > toPredict.csv
+scrapes + modelSource.csv (for historical stats) + schedule.csv > clean_currentPlayers.ipynb > toPredict.csv
 ## Predict
 rf_model_XX1.joblib + toPredict.csv > modelPredict3.ipynb > predictionsSeason.csv & predictionsWeek.csv
 
