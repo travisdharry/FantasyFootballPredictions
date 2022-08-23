@@ -5,7 +5,8 @@ config.py
 sources/
 ignore/
 data_raw/
-model_data/
+data_prepro/
+data_cleaned
 data_predictions/
 .joblib
 
